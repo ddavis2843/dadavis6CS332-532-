@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include <math.h>
 
 
@@ -34,6 +35,7 @@ int main() {
     }
 
 // final output
+
     if (is_prime) {
 
         printf("The number is prime.\n");
