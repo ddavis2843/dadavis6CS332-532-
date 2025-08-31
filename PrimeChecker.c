@@ -23,8 +23,11 @@ int main() {
     else {
 
         for (int i = 2; i <= sqrt(given_number); i++) {
+
             if (given_number % i == 0) {
+
                 is_prime = 0; 
+
                 break;       
             }
         }
@@ -38,6 +41,7 @@ int main() {
     } 
     
     else {
+        
         printf("The number is not prime.\n");
     }
 
