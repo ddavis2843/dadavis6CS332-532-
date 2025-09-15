@@ -4,6 +4,11 @@
 #include <ctype.h>  // Required for tolower
 #include <math.h>   // Required for sqrt
 
+
+
+
+
+
 // func 1: sumOfDigits(n)
 // function takes a positive integer n and returns the sum of its digits.
 // Returns -1 if n is less than or equal to 0
@@ -22,6 +27,11 @@ int sumOfDigits(int n) {
 
     return sum;
 }
+
+
+
+
+
 
 // func 2: UABMaxMinDiff(arr, size)
 // function takes an array of integers and its size, then returns the difference
@@ -48,6 +58,11 @@ int UABMaxMinDiff(int arr[], int size) {
     }
     return max - min;
 }
+
+
+
+
+
 
 // func 3: replaceEvenWithZero(arr, size)
 // takes an array of integers and its size, and returns a new array
@@ -76,6 +91,10 @@ int* replaceEvenWithZero(int arr[], int size) {
     return newArr;
 }
 
+
+
+
+
 // func 4: perfectSquare(n)
 // takes an integer n and returns True (1) if it is a perfect square,
 _Bool perfectSquare(int n) {
@@ -89,6 +108,9 @@ _Bool perfectSquare(int n) {
 
     return (root * root == n);
 }
+
+
+
 
 // func 5: countVowels(s)
 // Takes a string s and returns the number of vowels (a, e, i, o, u)
@@ -111,6 +133,10 @@ int countVowels(char* s) {
     return count;
 }
 
+
+
+
+
 // function to print int arrays
 void printIntArray(int arr[], int size) {
     if (arr == NULL) {
@@ -130,6 +156,15 @@ void printIntArray(int arr[], int size) {
     }
     printf("]");
 }
+
+
+
+
+
+
+
+
+
 
 // main
 
