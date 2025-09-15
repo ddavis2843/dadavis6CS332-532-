@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h> // Required for malloc and free
-#include <string.h> // Required for strlen and strcpy
-#include <ctype.h>  // Required for tolower
-#include <math.h>   // Required for sqrt
+#include <stdlib.h> // malloc and free
+#include <string.h> // strlen and strcpy
+#include <ctype.h>  // tolower
+#include <math.h>   // sqrt
 
 
 
@@ -156,7 +156,6 @@ void printIntArray(int arr[], int size) {
     }
     printf("]");
 }
-
 
 
 
